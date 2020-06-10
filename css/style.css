@@ -2246,3 +2246,7 @@ p.skill-tag {
     color: #808080;
     font-weight: 400;
 }
+
+span.detail-val img {
+    margin-right: 5px;
+}
