@@ -2250,3 +2250,9 @@ p.skill-tag {
 span.detail-val img {
     margin-right: 5px;
 }
+
+h3.p-head {
+    padding: 20px 0 10px 0;
+    font-size: 22px;
+    font-weight: 700;
+}
