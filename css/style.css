@@ -41,7 +41,7 @@ body.offcanvas:before {
 }
 
 body, .unslate_co--site-inner {
-  background: #000;
+  background: #080808;
 }
 
 ::-moz-selection {
@@ -1157,21 +1157,6 @@ h4.port-tag {
   position: relative;
 }
 
-figure.dotted-bg {
-  position: relative;
-}
-
-figure.dotted-bg:before {
-  z-index: 0;
-  content: "";
-  position: absolute;
-  bottom: -50px;
-  right: -50px;
-  width: 268px;
-  height: 224px;
-  background-image: url("../images/dotted_light.png");
-  background-repeat: no-repeat;
-}
 
 @media (max-width: 991.98px) {
   figure.dotted-bg:before {
@@ -2034,7 +2019,7 @@ span.error {
   left: 0;
   right: 0;
   bottom: 0;
-  background: black;
+  background: #080808;
 }
 
 .gsap-reveal-hero {
@@ -2122,8 +2107,9 @@ span.error {
 
 hr.port-line {
     border-bottom: 1px solid #2229;
-    margin-top: 100px;
-    margin-bottom: 0;
+    padding-top: 100px;
+    margin: 0;
+    background: #080808;
 }
 hr.ports-line {
     border-bottom: 1px solid #2229;
@@ -2142,18 +2128,23 @@ hr.ports-line {
 }
 
 #portfolio-section {
-    background: #000;
+    background: #080808;
 }
 
 #about-section{
-  background: #000;
+  background: #080808;
 }
 
 #experience, #services-section{
-  background-color: #000;
+  background-color: #080808;
+}
+
+div#contact-section
+{
+  background-color: #080808;  
 }
 #skills-section{
-  background-color: #000;
+  background-color: #080808;
 }
 
 .feature-v1 h3 {
@@ -2255,4 +2246,32 @@ h3.p-head {
     padding: 20px 0 10px 0;
     font-size: 22px;
     font-weight: 700;
+}
+
+ul.about-social {
+    padding-left: 0;
+}
+
+.about-social a i {
+  color: rgba(255, 255, 255);
+    font-size: 18px;
+    padding: 17px 17px;
+}
+
+
+p.about-social.gsap-reveal {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    transition: .3s all ease;
+    margin-right: 6px;
+}
+
+p.about-social.gsap-reveal:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+p.mb-4 {
+    color: #808080;
 }
